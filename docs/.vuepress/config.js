@@ -1,9 +1,37 @@
 // .vuepress/config.js
 module.exports = {
-    title: '飞跃高山',
-    description: '一个小众的博客网站',
+    plugins: [
+        [
+            //还可以使用gittalk，创建好网站后使用
+          'vuepress-plugin-comment',
+          {
+            choosen: 'valine', 
+            // options选项中的所有参数，会传给Valine的配置
+            options: {
+              el: '#valine-vuepress-comment',
+              appId: 'p8SSeKE80ahukHs3qRl5iAmo-gzGzoHsz',
+              appKey: 'QacafvI89BpsL5gUXkpTxMHi'
+            }
+          }
+        ]
+      ],
+    locales: {
+        '/': {
+          lang: 'zh-CN',
+          title: '飞跃高山',
+          description: '一个小众的博客网站',
+        },
+        '/en/': {
+          lang: 'en-US',
+          title: 'VuePress',
+          description: 'Vue-powered Static Site Generator',
+        }
+      },
+      head: [
+        ['link', { rel: 'icon', href: '/favicon.ico' }]
+      ],
     themeConfig: {
-        lastUpdated: 'Last Updated',
+        lastUpdated: '上次更新',
         nav: [
           { text: 'Home', link: '/' },
           { text: 'Guide', link: '/about/' },
