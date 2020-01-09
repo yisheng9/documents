@@ -22,6 +22,7 @@
   "devDependencies": {
     "vuepress": "^1.2.0"
   },
+  
   "dependencies": {
     "vuepress-plugin-comment": "^0.7.2"
   }
