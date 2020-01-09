@@ -30,6 +30,7 @@ module.exports = {
       head: [
         ['link', { rel: 'icon', href: '/favicon.ico' }]
       ],
+      base:'/documents/',
     themeConfig: {
         lastUpdated: '上次更新',
         nav: [
