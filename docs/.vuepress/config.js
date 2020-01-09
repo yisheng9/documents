@@ -18,13 +18,13 @@ module.exports = {
     locales: {
         '/': {
           lang: 'zh-CN',
-          title: '飞跃高山',
-          description: '一个小众的博客网站',
+          title: 'LAMMPS 学习笔记',
+          description: '一个小众的博客',
         },
         '/en/': {
           lang: 'en-US',
-          title: 'VuePress',
-          description: 'Vue-powered Static Site Generator',
+          title: 'Lammps Study Notes',
+          description: 'A small blog site',
         }
       },
       head: [
@@ -33,26 +33,15 @@ module.exports = {
     themeConfig: {
         lastUpdated: '上次更新',
         nav: [
-          { text: 'Home', link: '/' },
-          { text: 'Guide', link: '/about/' },
-          {
-            text: 'Languages',
-            ariaLabel: 'Language Menu',
-            items: [
-              { text: 'Chinese', link: '/language/chinese/' },
-              { text: 'Japanese', link: '/language/japanese/' },
-              {
-                text: '亚洲',
-                items: [
-                    { text: 'Chinese', link: '/language/chinese/' },
-                    { text: 'Japanese', link: '/language/japanese/' }
-                ]
-              }
-            ]
-          },
-          { text: 'External', link: 'https://google.com' },
+          { text: '主页', link: '/' },
+          { text: 'LAMMPS 学习文档', link: '/about/' },
+          { text: 'Linux 命令入门', link: '/a' },
+          { text: '可视化软件使用', link: '/b' },
+          { text: '科研心得', link: '/c' },
+          { text: 'LAMMPS官方文档', link: 'https://lammps.sandia.gov/doc/Manual.html' },
         ],
         sidebar: 'auto',
+        smoothScroll: true,
         activeHeaderLinks: false
       }
   }
