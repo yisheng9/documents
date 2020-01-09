@@ -33,6 +33,10 @@ module.exports = {
       base:'/documents/',
     themeConfig: {
         lastUpdated: '上次更新',
+        repo: 'yisheng9/documents',
+        editLinks: true,
+        // 默认为 "Edit this page"
+        editLinkText: '帮助我们改善此页面！',
         nav: [
           { text: '主页', link: '/' },
           { text: 'LAMMPS 学习文档', link: '/about/' },
