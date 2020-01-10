@@ -9,25 +9,28 @@ module.exports = {
           title: 'LAMMPS 学习笔记',
           description: '一个小众的博客',
         },
-        '/en/': {
+        /**'/en/': {
           lang: 'en-US',
           title: 'Lammps Study Notes',
           description: 'A small blog site',
         }
+        **/
       },
       head: [
         ['link', { rel: 'icon', href: '/favicon.ico' }]
       ],
       base:'/documents/',
     themeConfig: {
+
+
+
         lastUpdated: '上次更新',
+        //displayAllHeaders: true, // 默认值：false
         repo: 'yisheng9/documents',
         editLinks: true,
         tags:"tags",
         // 默认为 "Edit this page"
         editLinkText: '帮助我们改善此页面！',
-
-
 
         gitalk: {
           // gitalk的主要参数
@@ -57,18 +60,37 @@ module.exports = {
 
         nav: [
           { text: '主页', link: '/' },
+          { text: 'LAMMPS 学习文档', link: '/note/' },
+          {
+          text: '辅助资料',
+          items: [
+            { text: 'Linux 命令入门', link: '/a' },
+            { text: '可视化软件使用', link: '/b' },
+            { text: '科研心得', link: '/c' }
+          ]
+          },
           {
             text: "标签云",
             link: '/tags/',
             tags: true
           },
-          { text: 'LAMMPS 学习文档', link: '/about/' },
-          { text: 'Linux 命令入门', link: '/a' },
-          { text: '可视化软件使用', link: '/b' },
-          { text: '科研心得', link: '/c' },
-          { text: 'LAMMPS官方文档', link: 'https://lammps.sandia.gov/doc/Manual.html' },
+          {
+            text: 'LAMMPS官方文档', link: 'https://lammps.sandia.gov/doc/Manual.html' 
+          },
         ],
-        sidebar: 'auto',
+        //sidebar: 'auto',
+        sidebar: {
+          '/note/': [
+            '/note/',
+            '/note/install',
+            '/note/run'
+          ],
+          '/css/': [
+            'three',
+            'four'
+          ]
+        },
+
         smoothScroll: true,
         activeHeaderLinks: false
       }
