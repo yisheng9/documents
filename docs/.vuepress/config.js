@@ -82,8 +82,13 @@ module.exports = {
         sidebar: {
           '/note/': [
             '/note/',
-            '/note/install',
-            '/note/run'
+            '/note/1.1',
+            '/note/1.2',
+            '/note/1.3',
+            '/note/1.4',
+            '/note/1.5',
+            '/note/1.6',
+            '/note/1.7'
           ]
         },
 
