@@ -2,15 +2,16 @@
 module.exports = {
     plugins: [
         [
-            //还可以使用gittalk，创建好网站后使用
           'vuepress-plugin-comment',
           {
-            choosen: 'valine', 
-            // options选项中的所有参数，会传给Valine的配置
+            choosen: 'gitalk', 
             options: {
-              el: '#valine-vuepress-comment',
-              appId: 'p8SSeKE80ahukHs3qRl5iAmo-gzGzoHsz',
-              appKey: 'QacafvI89BpsL5gUXkpTxMHi'
+              clientID: '4d4249e08f528096b474',
+              clientSecret: 'e2415d58177883dd5f4d9d076dd12442253cd218',
+              repo: 'documents',
+              owner: 'yisheng9',
+              admin: ['yisheng9'],
+              distractionFreeMode: false 
             }
           }
         ]
