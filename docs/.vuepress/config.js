@@ -84,10 +84,6 @@ module.exports = {
             '/note/',
             '/note/install',
             '/note/run'
-          ],
-          '/css/': [
-            'three',
-            'four'
           ]
         },
 
