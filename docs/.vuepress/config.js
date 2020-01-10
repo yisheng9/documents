@@ -2,18 +2,6 @@
 module.exports = {
     plugins: [
         [
-          'vuepress-plugin-comment',
-          {
-            choosen: 'gitalk', 
-            options: {
-              clientID: '4d4249e08f528096b474',
-              clientSecret: 'e2415d58177883dd5f4d9d076dd12442253cd218',
-              repo: 'documents',
-              owner: 'yisheng9',
-              admin: ['yisheng9'],
-              distractionFreeMode: false 
-            }
-          }
         ]
       ],
     locales: {
