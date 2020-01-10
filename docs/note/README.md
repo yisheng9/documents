@@ -4,7 +4,7 @@ tags:
 ---
 ## 1. LAMPPS 简介
 这篇页面将讲述LAMMPS一些基本介绍：
-* 1.1\.  [LAMMPS概述](http://www.google.com/)
+* 1.1\.  [LAMMPS概述](./google.html/)
 * 1.2\.  [LAMMPS版本说明](http://www.google.com/)
 * 1.3\.  [LAMMPS现有功能](http://www.google.com/)
 * 1.4\.  [LAMMPS暂缺功能](http://www.google.com/)
