@@ -25,6 +25,7 @@
     "vuepress-theme-reform": "^1.4.0"
   },
   "dependencies": {
+    "axios": "^0.19.1",
     "vuepress-plugin-comment": "^0.7.2",
     "vuepress-plugin-gitalk": "^0.1.3"
   }
