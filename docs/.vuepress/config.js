@@ -85,7 +85,7 @@ module.exports = {
         title: '1. LAMMPS 简介',   // 必要的
         path: '/note/1/',      // 可选的, 应该是一个绝对路径
         collapsable: true, // 可选的, 默认值是 true,
-        sidebarDepth: 1,    // 可选的, 默认值是 1
+        sidebarDepth: 0,    // 可选的, 默认值是 1
         children: [
           '/note/1/1.1',
           '/note/1/1.2',
@@ -100,7 +100,7 @@ module.exports = {
         title: '2. LAMMPS install',   // 必要的
         path: '/note/2/',      // 可选的, 应该是一个绝对路径
         collapsable: true, // 可选的, 默认值是 true,
-        sidebarDepth: 1,    // 可选的, 默认值是 1
+        sidebarDepth: 0,    // 可选的, 默认值是 1
         children: [
           '/note/2/2.1',
           '/note/2/2.2',
