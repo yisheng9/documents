@@ -1,6 +1,8 @@
 ---
 tags:
   - 学习
+---
+---
 sidebar: auto
 ---
 ## 运行LAMMPS
