@@ -2,10 +2,6 @@
 module.exports = {
   theme:'reform',
     plugins: {
-      '@vuepress/pwa': {
-        serviceWorker: true,
-        updatePopup: true
-      }
     },
     locales: {
         '/': {
