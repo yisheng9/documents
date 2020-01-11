@@ -1,8 +1,12 @@
 // .vuepress/config.js
 module.exports = {
   theme:'reform',
-    plugins: [
-      ],
+    plugins: {
+      '@vuepress/pwa': {
+        serviceWorker: true,
+        updatePopup: true
+      }
+    },
     locales: {
         '/': {
           lang: 'zh-CN',
@@ -21,9 +25,6 @@ module.exports = {
       ],
       base:'/documents/',
     themeConfig: {
-
-
-
         lastUpdated: '上次更新',
         docsDir:'docs',
         //displayAllHeaders: true, // 默认值：false
