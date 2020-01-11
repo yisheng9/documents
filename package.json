@@ -21,6 +21,8 @@
   },
   "homepage": "https://github.com/yisheng9/documents#readme",
   "devDependencies": {
+    "@vuepress/plugin-back-to-top": "^1.2.0",
+    "@vuepress/plugin-google-analytics": "^1.2.0",
     "@vuepress/plugin-pwa": "^1.2.0",
     "vuepress": "^1.2.0",
     "vuepress-theme-reform": "^1.4.0"
