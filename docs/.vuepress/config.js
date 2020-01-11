@@ -100,8 +100,18 @@ module.exports = {
             ]
           },
           {
-            title: 'Group 2',
-            children: [ /* ... */ ]
+            title: '2. LAMMPS install',   // 必要的
+            path: '/note/1/',      // 可选的, 应该是一个绝对路径
+            collapsable: true, // 可选的, 默认值是 true,
+            sidebarDepth: 1,    // 可选的, 默认值是 1
+            children: [
+              '/note/1/1.1',
+              '/note/1/1.2',
+              '/note/1/1.3',
+              '/note/1/1.4',
+              '/note/1/1.5',
+              '/note/1/1.6',
+              '/note/1/1.7',
           }
         ],
         /**algolia: {
