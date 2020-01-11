@@ -25,6 +25,7 @@ module.exports = {
 
 
         lastUpdated: '上次更新',
+        docsDir:'docs',
         //displayAllHeaders: true, // 默认值：false
         repo: 'yisheng9/documents',
         editLinks: true,
