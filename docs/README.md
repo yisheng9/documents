@@ -4,7 +4,7 @@ heroImage: /avatar.png
 heroText: 博学而笃志 切问而近思
 tagline: 《论语·子张》
 actionText: 快速开始 →
-actionLink: /zh/guide/
+actionLink: /note/
 features:
 - title: 关于 网站
   details: 学习之余，希望可以把经验分享给大家，所以建立了这个博客。LAMMPS中文资料过于缺少，打算翻译一部分命令和学习指南，希望对初学者有所帮助。
