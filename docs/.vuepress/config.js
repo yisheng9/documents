@@ -112,7 +112,8 @@ module.exports = {
               '/note/1/1.5',
               '/note/1/1.6',
               '/note/1/1.7',
-          }
+            ]
+          },
         ],
         /**algolia: {
           apiKey: '<API_KEY>',
