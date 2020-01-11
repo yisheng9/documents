@@ -95,7 +95,11 @@ module.exports = {
             '/note/1.7'
           ]
         },
-
+        /**algolia: {
+          apiKey: '<API_KEY>',
+          indexName: '<INDEX_NAME>'
+        },
+        **/
         smoothScroll: true,
         activeHeaderLinks: false
       }
