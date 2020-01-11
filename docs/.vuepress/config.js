@@ -64,9 +64,9 @@ module.exports = {
           {
           text: '辅助资料',
           items: [
-            { text: 'Linux 命令入门', link: '/a' },
-            { text: '可视化软件使用', link: '/b' },
-            { text: '科研心得', link: '/c' }
+            { text: 'Linux 命令入门', link: '/linux' },
+            { text: '可视化软件使用', link: '/visualization' },
+            { text: '科研心得', link: '/science' }
           ]
           },
           {
