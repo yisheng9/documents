@@ -105,13 +105,12 @@ module.exports = {
             collapsable: true, // 可选的, 默认值是 true,
             sidebarDepth: 1,    // 可选的, 默认值是 1
             children: [
-              '/note/1/1.1',
-              '/note/1/1.2',
-              '/note/1/1.3',
-              '/note/1/1.4',
-              '/note/1/1.5',
-              '/note/1/1.6',
-              '/note/1/1.7',
+              '/note/2/2.1',
+              '/note/2/2.2',
+              '/note/2/2.3',
+              '/note/2/2.4',
+              '/note/2/2.5',
+              '/note/2/2.6',
             ]
           },
         ],
