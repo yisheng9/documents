@@ -64,7 +64,7 @@ module.exports = {
 
         nav: [
           { text: '主页', link: '/' },
-          { text: 'LAMMPS 学习文档', link: '/note/' },
+          { text: 'LAMMPS 学习文档', link: '/note/1/' },
           {
           text: '辅助资料',
           items: [
