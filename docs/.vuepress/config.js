@@ -90,7 +90,8 @@ module.exports = {
             collapsable: false, // 可选的, 默认值是 true,
             sidebarDepth: 1,    // 可选的, 默认值是 1
             children: [
-              '/'
+              '/note/1/1.1',
+              '/note/1/1.2',
             ]
           },
           {
