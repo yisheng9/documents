@@ -1,6 +1,6 @@
 ---
 home: true
-heroImage: /avatar.jpg
+heroImage: /avatar.png
 heroText: 博学而笃志 切问而近思
 tagline: 《论语·子张》
 actionText: 快速开始 →
