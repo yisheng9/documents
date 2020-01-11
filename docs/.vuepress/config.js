@@ -87,7 +87,7 @@ module.exports = {
           {
             title: '1. LAMMPS 简介',   // 必要的
             path: '/note/1/',      // 可选的, 应该是一个绝对路径
-            collapsable: false, // 可选的, 默认值是 true,
+            collapsable: true, // 可选的, 默认值是 true,
             sidebarDepth: 1,    // 可选的, 默认值是 1
             children: [
               '/note/1/1.1',
