@@ -3,10 +3,11 @@ module.exports = {
   theme:'reform',
     plugins: [
     '@vuepress/back-to-top',
-    '@vuepress/google-analytics',
+    '@vuepress/google-analytics':
     {
       'ga': 'UA-156047328-1'
-    }],
+    }
+  ],
 
     locales: {
         '/': {
